@@ -1,0 +1,14 @@
+{
+  "name": "coolblue/hackthaon-php-wishlist-service",
+  "description": "Coolblue wishlist service",
+  "license": "proprietary",
+  "require": {
+    "evseevnn/php-cassandra-binary": "dev-master",
+    "nikic/fast-route": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wishlist\\": "src/"
+    }
+  }
+}

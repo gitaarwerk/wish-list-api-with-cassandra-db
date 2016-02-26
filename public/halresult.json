@@ -1,0 +1,481 @@
+{
+  "_links": {
+    "cb:assortment": {
+      "href": "/products/107576/assortment",
+      "profile": "https://schemas.coolblue.io/products/product-assortment",
+      "title": "Assortment"
+    },
+    "cb:availabilityState": {
+      "href": "/products/107576/availability-state/{stockClusterId}",
+      "templated": true,
+      "profile": "https://schemas.coolblue.io/products/availability-state",
+      "title": "Availability in a stock cluster"
+    },
+    "cb:brand": {
+      "href": "/brands/32",
+      "profile": "https://schemas.coolblue.io/products/brand",
+      "title": "Brand"
+    },
+    "cb:productContent": [
+      {
+        "href": "/products/107576/content/nl-NL",
+        "name": "nl-NL",
+        "profile": "https://schemas.coolblue.io/products/product-content",
+        "title": "Product content for a specfic locale"
+      }
+    ],
+    "cb:productFamily": {
+      "href": "/products/107576/family",
+      "profile": "https://schemas.coolblue.io/products/product-family",
+      "title": "Product family"
+    },
+    "cb:productLine": {
+      "href": "/product-lines/{productLineId}",
+      "templated": true,
+      "profile": "https://schemas.coolblue.io/products/product-line",
+      "title": "Product line"
+    },
+    "cb:productStatistics": [
+      {
+        "href": "/products/107576/statistics/1",
+        "name": 1,
+        "profile": "https://schemas.coolblue.io/products/product-statistics",
+        "title": "Product statistics"
+      },
+      {
+        "href": "/products/107576/statistics/3",
+        "name": 3,
+        "profile": "https://schemas.coolblue.io/products/product-statistics",
+        "title": "Product statistics"
+      }
+    ],
+    "cb:productType": {
+      "href": "/product-types/2093",
+      "profile": "https://schemas.coolblue.io/products/product-type",
+      "title": "Product type"
+    },
+    "cb:recommendedRetailSalesPrice": {
+      "href": "/products/107576/recommended-retail-sales-price/{subsidiaryId}",
+      "templated": true,
+      "profile": "https://schemas.coolblue.io/products/recommended-retail-sales-price",
+      "title": "Recommended retail sales price for a subsidary"
+    },
+    "cb:salesPrice": {
+      "href": "/products/107576/sales-price/{subsidiaryId}",
+      "templated": true,
+      "profile": "https://schemas.coolblue.io/products/sales-price",
+      "title": "Coolblue sales price for a subsidary"
+    },
+    "cb:servicePlanDetails": {
+      "href": "/products/107576/service-plan-details",
+      "profile": "https://schemas.coolblue.io/products/service-plan-details",
+      "title": "Service plan details"
+    },
+    "cb:productProperties": [
+      {
+        "href": "/product-properties/43013",
+        "name": "43013",
+        "profile": "https://schemas.coolblue.io/products/property/property",
+        "title": "Product properties"
+      }
+    ],
+    "cb:productPropertyValue": [
+      {
+        "href": "/products/107576/properties/43013/value",
+        "name": "43013",
+        "profile": "https://schemas.coolblue.io/products/property/values/property-value"
+      }
+    ],
+    "self": {
+      "href": "/products/107576",
+      "profile": "https://schemas.coolblue.io/products/product"
+    },
+    "curies": [
+      {
+        "name": "cb",
+        "href": "https://schemas.coolblue.io/relations/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "_embedded": {
+    "cb:assortment": {
+      "_links": {
+        "self": {
+          "href": "/products/107576/assortment",
+          "profile": "https://schemas.coolblue.io/products/product-assortment"
+        }
+      },
+      "productId": "107576",
+      "shopIds": [
+        11,
+        16,
+        2,
+        350,
+        7
+      ],
+      "subsidiaryIds": [
+        1,
+        3
+      ]
+    },
+    "cb:brand": {
+      "_links": {
+        "cb:brandContent": [
+          {
+            "href": "/brands/32/content/nl-NL",
+            "name": "nl-NL",
+            "profile": "https://schemas.coolblue.io/products/brand-content",
+            "title": "Brand content for a specfic locale"
+          },
+          {
+            "href": "/brands/32/content/{locale}",
+            "templated": true,
+            "profile": "https://schemas.coolblue.io/products/brand-content",
+            "title": "Brand content for a specfic locale"
+          }
+        ],
+        "self": {
+          "href": "/brands/32",
+          "profile": "https://schemas.coolblue.io/products/brand"
+        }
+      },
+      "_embedded": {
+        "cb:brandContent": [
+          {
+            "_links": {
+              "self": {
+                "href": "/brands/32/content/nl-NL",
+                "name": "nl-NL",
+                "profile": "https://schemas.coolblue.io/products/brand-content"
+              }
+            },
+            "brandId": "32",
+            "locale": "nl-NL",
+            "name": "Apple",
+            "primaryImageId": "0"
+          },
+          {
+            "_links": {
+              "self": {
+                "href": "/brands/32/content/{locale}",
+                "templated": true,
+                "profile": "https://schemas.coolblue.io/products/brand-content"
+              }
+            },
+            "brandId": "32",
+            "name": "Apple",
+            "primaryImageId": "0"
+          }
+        ]
+      },
+      "brandId": "32",
+      "internalName": "Apple"
+    },
+    "cb:productContent": [
+      {
+        "_links": {
+          "self": {
+            "href": "/products/107576/content/nl-NL",
+            "name": "nl-NL",
+            "profile": "https://schemas.coolblue.io/products/product-content"
+          }
+        },
+        "fullDescription": "Na de eerste iPhone en de iPhone 3G is er nu de iPhone 3GS: sneller, completer en machtig mooi. ",
+        "fullName": "Apple iPhone 3G S 8 GB Black Simlockvrij",
+        "highlights": [
+          "iPhone OS 4.0 voor nog meer mogelijkheden",
+          "Razendsnelle internetverbinding",
+          "Multi-touch touchscreen",
+          "GPS-ontvanger en compas",
+          "Elegant en tijdloos design",
+          "3-megapixelcamera met videofunctie",
+          "MMS versturen met foto, video of audio",
+          "Voice Control en Voice Recorder",
+          "Knippen en plakken in berichten",
+          "Download dagelijks nieuwe apps, muziek en podcasts",
+          "8 GB intern geheugen"
+        ],
+        "includedInBox": [
+          "Stereoheadset met microfoon",
+          "Dockconnector-naar-USB-kabel",
+          "USB-lichtnetadapter",
+          "Documentatie",
+          "Reinigings- en poetsdoekje",
+          "Pinnetje voor het plaatsen van de simkaart"
+        ],
+        "locale": "nl-NL",
+        "primaryImageId": "125217",
+        "productId": "107576"
+      }
+    ],
+    "cb:productStatistics": [
+      {
+        "_links": {
+          "self": {
+            "href": "/products/107576/statistics/1",
+            "name": 1,
+            "profile": "https://schemas.coolblue.io/products/product-statistics"
+          }
+        },
+        "productId": "107576",
+        "subsidiaryId": "1",
+        "toppedWeightedSales": 0
+      },
+      {
+        "_links": {
+          "self": {
+            "href": "/products/107576/statistics/3",
+            "name": 3,
+            "profile": "https://schemas.coolblue.io/products/product-statistics"
+          }
+        },
+        "productId": "107576",
+        "subsidiaryId": "3",
+        "toppedWeightedSales": 0
+      }
+    ],
+    "cb:productType": {
+      "_links": {
+        "cb:preferredShop": [
+          {
+            "href": "/product-types/2093/preferred-shop/1",
+            "name": 1,
+            "profile": "https://schemas.coolblue.io/products/preferred-shop",
+            "title": "Preferred shop for a specfic subsidary"
+          },
+          {
+            "href": "/product-types/2093/preferred-shop/3",
+            "name": 3,
+            "profile": "https://schemas.coolblue.io/products/preferred-shop",
+            "title": "Preferred shop for a specfic subsidary"
+          }
+        ],
+        "cb:productTypeContent": [
+          {
+            "href": "/product-types/2093/content/nl-NL",
+            "name": "nl-NL",
+            "profile": "https://schemas.coolblue.io/products/product-type-content",
+            "title": "Product type content for a specfic locale"
+          },
+          {
+            "href": "/product-types/2093/content/{locale}",
+            "templated": true,
+            "profile": "https://schemas.coolblue.io/products/product-type-content",
+            "title": "Product type content for a specfic locale"
+          }
+        ],
+        "self": {
+          "href": "/product-types/2093",
+          "profile": "https://schemas.coolblue.io/products/product-type"
+        }
+      },
+      "_embedded": {
+        "cb:preferredShop": [
+          {
+            "_links": {
+              "self": {
+                "href": "/product-types/2093/preferred-shop/1",
+                "name": 1,
+                "profile": "https://schemas.coolblue.io/products/preferred-shop"
+              }
+            },
+            "productTypeId": "2093",
+            "shopId": "2",
+            "subsidiaryId": "1"
+          },
+          {
+            "_links": {
+              "self": {
+                "href": "/product-types/2093/preferred-shop/3",
+                "name": 3,
+                "profile": "https://schemas.coolblue.io/products/preferred-shop"
+              }
+            },
+            "productTypeId": "2093",
+            "shopId": "7",
+            "subsidiaryId": "3"
+          }
+        ],
+        "cb:productTypeContent": [
+          {
+            "_links": {
+              "self": {
+                "href": "/product-types/2093/content/nl-NL",
+                "name": "nl-NL",
+                "profile": "https://schemas.coolblue.io/products/product-type-content"
+              }
+            },
+            "locale": "nl-NL",
+            "plural": "Mobiele telefoons",
+            "productTypeId": "2093",
+            "singular": "Mobiele telefoon"
+          },
+          {
+            "_links": {
+              "self": {
+                "href": "/product-types/2093/content/{locale}",
+                "templated": true,
+                "profile": "https://schemas.coolblue.io/products/product-type-content"
+              }
+            },
+            "plural": "smartphones",
+            "productTypeId": "2093",
+            "singular": "smartphone"
+          }
+        ]
+      },
+      "internalName": "Mobiele telefoons",
+      "productTypeId": "2093"
+    },
+    "cb:productProperties": [
+      {
+        "_links": {
+          "cb:propertyContent": [
+            {
+              "href": "/product-properties/43013/content/nl-NL",
+              "name": "nl-NL",
+              "profile": "https://schemas.coolblue.io/products/property/property-content",
+              "title": "Property content for a specfic locale"
+            }
+          ],
+          "cb:propertyOptionValue": {
+            "href": "/product-properties/43013/content/{locale}/options/{propertyOptionValueId}",
+            "templated": true,
+            "name": "",
+            "profile": "https://schemas.coolblue.io/products/property/property-option-value",
+            "title": "Property option value"
+          },
+          "self": {
+            "href": "/product-properties/43013",
+            "name": "43013",
+            "profile": "https://schemas.coolblue.io/products/property/property"
+          }
+        },
+        "_embedded": {
+          "cb:propertyContent": [
+            {
+              "_links": {
+                "self": {
+                  "href": "/product-properties/43013/content/nl-NL",
+                  "name": "nl-NL",
+                  "profile": "https://schemas.coolblue.io/products/property/property-content"
+                }
+              },
+              "locale": "nl-NL",
+              "name": "Type mobiele telefoon",
+              "propertyId": "43013"
+            }
+          ]
+        },
+        "dimensionless": false,
+        "name": "Type of mobile phone",
+        "propertyId": "43013",
+        "propertyTypeId": "4",
+        "range": false
+      }
+    ],
+    "cb:productPropertyValue": [
+      {
+        "_links": {
+          "cb:propertyContent": [
+            {
+              "href": "/product-properties/43013/content/nl-NL",
+              "name": "nl-NL",
+              "profile": "https://schemas.coolblue.io/products/property/property-content",
+              "title": "Property content for a specfic locale"
+            }
+          ],
+          "cb:productProperty": {
+            "href": "/product-properties/43013",
+            "name": "43013",
+            "profile": "https://schemas.coolblue.io/products/property/property",
+            "title": "Product property that this value belongs"
+          },
+          "cb:propertyProfile": {
+            "href": "/property-profiles/271",
+            "name": "271",
+            "profile": "https://schemas.coolblue.io/products/property/property-profile",
+            "title": "Property profile this property belongs"
+          },
+          "self": {
+            "href": "/products/107576/properties/43013/value",
+            "name": "43013",
+            "profile": "https://schemas.coolblue.io/products/property/values/property-value"
+          }
+        },
+        "_embedded": {
+          "cb:propertyContent": [
+            {
+              "_links": {
+                "self": {
+                  "href": "/product-properties/43013/content/nl-NL",
+                  "name": "nl-NL",
+                  "profile": "https://schemas.coolblue.io/products/property/property-content"
+                }
+              },
+              "locale": "nl-NL",
+              "name": "Type mobiele telefoon",
+              "propertyId": "43013"
+            }
+          ],
+          "cb:propertyProfile": {
+            "_links": {
+              "cb:propertyProfileContent": [
+                {
+                  "href": "/property-profiles/271/content/nl-NL",
+                  "name": "271",
+                  "profile": "https://schemas.coolblue.io/products/property/property-profile-content",
+                  "title": "Property profile content for a specfic profile"
+                }
+              ],
+              "self": {
+                "href": "/property-profiles/271",
+                "name": "271",
+                "profile": "https://schemas.coolblue.io/products/property/property-profile"
+              }
+            },
+            "_embedded": {
+              "cb:propertyProfileContent": [
+                {
+                  "_links": {
+                    "self": {
+                      "href": "/property-profiles/271/content/nl-NL",
+                      "name": "271",
+                      "profile": "https://schemas.coolblue.io/products/property/property-profile-content"
+                    }
+                  },
+                  "locale": "nl-NL",
+                  "name": "Model telecom",
+                  "profileId": "271"
+                }
+              ]
+            },
+            "profileId": "271"
+          }
+        },
+        "contentValue": {
+          "nl-NL": [
+            {
+              "name": "Smartphone",
+              "locale": "nl-NL"
+            }
+          ]
+        },
+        "propertyId": "43013",
+        "productId": "107576"
+      }
+    ]
+  },
+  "active": true,
+  "brandId": "32",
+  "eanCodes": [
+    "885909407859",
+    "CB116417"
+  ],
+  "internalName": "Apple iPhone 3GS 8 GB Black Simlockvrij",
+  "manufacturerProductCode": "APL-MC637IP/A",
+  "productId": "107576",
+  "productLineId": "0",
+  "productTypeId": "2093"
+}
